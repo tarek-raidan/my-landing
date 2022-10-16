@@ -1,0 +1,37 @@
+.container {
+  width:  700px;
+  margin: 80px auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 960px){
+  .container {
+    width:  700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    background-color: white;
+    width: 300px;
+  }
+}
+
+@media (max-width: 460px) and (orientation: landscape){
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px){
+  .container {
+    width: 400px;
+  }
+}
